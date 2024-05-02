@@ -1,6 +1,6 @@
 import React from 'react';
-import { NewsList } from "./pages/news-list";
-import { NewsDetails } from "./pages/news-details";
+import { NewsList } from "../pages/news-list";
+import { NewsDetails } from "../pages/news-details";
 import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 import { View, Panel, Root, Div } from '@vkontakte/vkui';
 

@@ -15,3 +15,15 @@ export type NewsState = {
     news: NewsItem[];
     status: 'idle' | 'loading' | 'succeeded' | 'failed';
 }
+
+export type CommentItem = {
+    by?: string,
+    id: number,
+    kids?: number[],
+    parent : number,
+    text? : string,
+    time: string,
+    type : string
+    deleted?: boolean,
+    descendants?: number
+}
